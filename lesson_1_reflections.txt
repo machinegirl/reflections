@@ -1,0 +1,38 @@
+How did viewing a diff between two versions of a file help you see the bug that
+was introduced?
+
+    Seeing the differences between two documents helps to show not only the intended changes, but also the unintended ones, such as typos. Using diff makes it easy to see only the changed lines.
+
+How could having easy access to the entire history of a file make you a better
+programmer in the long term?
+
+    If you think your changes didn't make sense at any point, you could go back to a working version. This helps avoid coding in circles trying to fix things that arose from trying to change other things.
+    I could see what problems were occurring and how i solved them, so in the future I may be able to avoid such pitfalls. Also I could have examples of working code that I may have changed for whatever reason, but that could be useful for other projects.
+
+What do you think are the pros and cons of manually choosing when to create a
+commit, like you do in Git, vs having versions automatically saved, like Google
+docs does?
+    
+    I think google docs would make it easier to accidentally clobber your good files, while git might lead to you forgetting to save working versions.
+
+Why do you think some version control systems, like Git, allow saving multiple
+files in one commit, while others, like Google Docs, treat each file separately?
+
+    Git is built with programming in mind, while google docs was built with basic file sharing in mind. it's cheaper and faster to only save the one file, but from a programming standpoint it's much better to save the whole group.
+
+How can you use the commands git log and git diff to view the history of files?
+    
+    you can use:
+    	git log *filename*
+    to view the whole history of a file, then you can use:
+    	git diff *old_id* *new_id*
+    with the commit id's found in the git log, to see exactly what changes were made 
+
+How might using version control make you more confident to make changes that
+could break something?
+    
+    I wouldn't feel as scared to break working code if I knew I could always revert back to that state. I would take more chances coding in unexpected ways and trying to be innovative.
+
+Now that you have your workspace set up, what do you want to try using Git for?
+
+    My web-store
