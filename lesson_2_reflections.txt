@@ -5,3 +5,15 @@ What happens when you initialize a repository? Why do you need to do it?
 How is the staging area different from the working directory and the repository? What value do you think it offers?
 
 	The staging area is an intermediary between the working directory and the repository. It offers the flexibility of choosing exactly which files to bundle together for each commit. that way when you look back at your commit history, you'll see which files you modified on each commit.
+	
+How can you use the staging area to make sure you have one commit per logical change?
+	
+	you can use git diff and git diff --staged to see what files are modified between the staging area and the working directory and the head.
+	
+What are some situations when branches would be helpful in keeping your history organized? How would branches help?
+
+	branches are very useful for developing new features while keeping the main application running. 
+	
+How do the diagrams help you visualize the branch structure?
+
+	The diagrams were very helpful to understand branches and commits as well as the head and detached head state.
